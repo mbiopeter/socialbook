@@ -654,6 +654,10 @@ nav .user_profile a{
     .search_box{
         display: none;
     }
+    .nav_left ul li img{
+        width: 20px;
+        margin: 0 10px;
+}
     .logo{
         width: 50px;
         margin-right: 20px;
