@@ -655,12 +655,12 @@ nav .user_profile a{
         display: none;
     }
     .logo{
-        width: 80px;
+        width: 50px;
         margin-right: 20px;
     }
     .nav_left ul li{
        width: 20px;
-       margin: 0 8px; 
+       margin: 0 5px; 
     }
     .nav_right .nav_user_icon img{
         width: 30px;
