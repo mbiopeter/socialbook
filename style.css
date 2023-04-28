@@ -649,13 +649,13 @@ nav .user_profile a{
         display: none;
     }
     nav{
-        flex-wrap: wrap;
+        flex-wrap: nowrap;
     }
     .search_box{
         display: none;
     }
     .logo{
-        width: 110px;
+        width: 85px;
         margin-right: 20px;
     }
     .nav_left ul li{
