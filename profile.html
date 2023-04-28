@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile page</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/c4254e24a8.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <nav>
+        <div class="nav_left">
+            <a href="index.html">
+            <img src="images/logo.png" class="logo">
+            </a>
+            <ul>
+                <li><img src="images/notification.png " ></li>
+                <li><img src="images/inbox.png " ></li>
+                 <li><img src="images/video.png " ></li>
+            </ul>
+        </div>
+        <div class="nav_right">
+            <div class="search_box">
+                <img src="images/search.png">
+                <input type="text" placeholder="Search">
+            </div>
+            <div class="nav_user_icon online" onclick="settingsMenuToggle()">
+                <img src="images/profile-pic.png">
+            </div>
+        </div>
+
+        <!---------settings_menu------------->  
+        <div class="settings_menu">
+            <div id="dark_btn" >
+                <span></span>
+            </div>
+            <div class="setting_menu_inner">      
+                <div class="user_profile">
+                    <img src="images/profile-pic.png" >
+                    <div>
+                        <p>John Nicholson</p>
+                        <a href="#">See yo ur profile</a>
+                    </div> 
+                </div>
+                <hr>
+                <div class="user_profile">
+                    <img src="images/feedback.png" >
+                    <div>
+                        <p>Give feedback</p>
+                        <a href="#">Help us to improve the new dedign</a>
+                    </div> 
+                </div> 
+                <hr>
+                <div class="setting_links">
+                    <img src="images/setting.png"class="settings_icon">
+                    <a href="#">Setting & privacy</a>
+                    <img src="images/arrow.png" width="10px">
+                </div>
+                <div class="setting_links">
+                    <img src="images/help.png"class="settings_icon">
+                    <a href="#">Help & Support</a>
+                    <img src="images/arrow.png" width="10px">
+                </div>
+                <div class="setting_links">
+                    <img src="images/help.png"class="settings_icon">
+                    <a href="#">Display & Acessibilty</a>
+                    <img src="images/arrow.png" width="10px">
+                </div>
+                <div class="setting_links">
+                    <img src="images/logout.png"class="settings_icon">
+                    <a href="#">Log out</a>
+                    <img src="images/arrow.png" width="10px">
+                </div>
+            </div>
+
+        </div>
+    </nav>
+    <!------profile page ------------>
+
+    <div class="profile_container">
+        <img src="images/cover.png" class="cover_img">
+        <div class="profile_details">
+            <div class="pd_left">
+                <div class="pd_row">
+                    <img src="images/profile.png" class="pd_image">
+                    <div>
+                        <h3>Jack Nicholson</h3>
+                        <p>120 Friend - 20 mutual</p>
+                        <img src="images/member-1.png" >
+                        <img src="images/member-2.png" >
+                        <img src="images/member-3.png" >
+                        <img src="images/member-4.png" >
+                    </div>
+                </div>
+            </div>
+            <div class="pd_right">
+                <button type="button"><img src="images/add-friends.png"> Friends</button>
+                <button type="button"><img src="images/message.png"> Message</button>
+                <br>
+                <a href="#">
+                    <img src="images/more.png">
+                </a>
+            </div>
+        </div>
+
+        <div class="profile_info">
+            <div class="info_col">
+                <div class="profile_intro">
+                    <h3>Intro</h3>
+                    <p class="into_text">Belive in yourself and you can do unbelivable things.
+                        <img src="images/feeling.png">
+                    </p>
+                    <hr>
+                    <ul>
+                        <li>
+                            <img src="images/profile-job.png">
+                            Software Engineer</li>
+                        <li>
+                            <img src="images/profile-study.png">
+                            Studies at Kirinyaga University</li>
+                        <li>
+                            <img src="images/profile-study.png">
+                            Went to arnesens high school</li>
+                        <li>
+                            <img src="images/profile-home.png">
+                            Lives in Nairobi kenya</li>
+                        <li>
+                            <img src="images/profile-location.png">
+                            From Central Kenya</li>
+                    </ul>
+                </div>
+
+                <div class="profile_intro">
+                    <div class="title_box">
+                        <h3>Photos</h3>
+                        <a href="#">All Photos</a>
+                    </div>
+                    <div class="photo_box">
+                        <div><img src="images/photo1.png" ></div>
+                        <div><img src="images/photo2.png" ></div>
+                        <div><img src="images/photo3.png" ></div>
+                        <div><img src="images/photo4.png" ></div>
+                        <div><img src="images/photo5.png" ></div>
+                        <div><img src="images/photo6.png" ></div>
+                    </div>
+                </div>
+
+                <div class="profile_intro">
+                    <div class="title_box">
+                        <h3>Friends</h3>
+                        <a href="#">All Friends</a>
+                    </div>
+                    <p>120 (20 mutual)</p>
+                    <div class="friend_box">
+                        <div><img src="images/member-1.png" >
+                        <p>Joseph N</p>
+                        </div>
+                        <div><img src="images/member-2.png" >
+                        <p>Nathan N</p>
+                        </div>
+                        <div><img src="images/member-3.png" >
+                        <p>George D</p>
+                        </div>
+                        <div><img src="images/member-4.png" >
+                        <p>Francis L</p>
+                        </div>
+                        <div><img src="images/member-5.png" >
+                        <p>Antony E</p>   
+                        </div>
+                        <div><img src="images/member-6.png" >
+                        <p>Michal A</p>
+                        </div>
+                        <div><img src="images/member-7.png" >
+                        <p>Edward M</p>
+                        </div>
+                        <div><img src="images/member-8.png" >
+                        <p>Bradon C</p>
+                        </div>
+                        <div><img src="images/member-9.png" >
+                        <p>James Doe</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="post_col">
+                <div class="write_post_container">
+                    <div class="user_profile">
+                        <img src="images/profile-pic.png" >
+                        <div>
+                            <p>John Nicholson</p>
+                            <small>Public <i class="fas fa-caret-down"></i></small>
+                        </div>
+                    </div>
+                    <div class="post_input_container">
+                        <textarea  rows="3" placeholder="What's on your mind"></textarea>
+                        <div class="add_post_links">
+                            <a href="#">
+                                <img src="images/live-video.png" >Live Video
+                            </a>
+                            <a href="#">
+                                <img src="images/photo.png" >Photo/Video
+                            </a>
+                            <a href="#">
+                                <img src="images/feeling.png" >Feeling Activity
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                 
+                <div class="post_container">
+                    <div class="post_row">
+                        <div class="user_profile">
+                            <img src="images/profile-pic.png" >
+                            <div>
+                                <p>John Nicholson</p>
+                                <span>June 24 2021, 1340pm</span>
+                            </div>
+                        </div>  
+                        <a href="#"><i class="fas fa-ellipsis-v"></i></a>
+                    </div>
+                    <p class="post_text">Subscribe to <span>mbio peter </span>youtube channel to watch more lyrics at high level understanding. <a href="#">#Mbio Peter #Youtube Channel </a></p>   
+                    <img src="images/feed-image-1.png" class="post_img">
+                    <div class="post_row">
+                         <div class="activities_icons">
+                            <div><img src="images/like-blue.png">120</div>
+                            <div><img src="images/comments.png">45</div>
+                            <div><img src="images/share.png">20</div>
+                         </div>
+                         <div class="post_profile_icons">
+                             <img src="images/profile-pic.png" >
+                             <i class="fas fa-caret-down"></i>
+                         </div>
+                    </div>
+                </div>
+                <div class="post_container">
+                    <div class="post_row">
+                        <div class="user_profile">
+                            <img src="images/profile-pic.png" >
+                            <div>
+                                <p>John Nicholson</p>
+                                <span>September 13 2022, 1049pm</span>
+                            </div>
+                        </div>  
+                        <a href="#"><i class="fas fa-ellipsis-v"></i></a>
+                    </div>   
+                    <p class="post_text">Like, share and comment this video to <span>friends </span> at my facebook page. <a href="#">#Mbio Peter #Facebook </a></p>   
+                    <img src="images/feed-image-2.png" class="post_img">
+                    <div class="post_row">
+                         <div class="activities_icons">
+                            <div><img src="images/like.png">221</div>
+                            <div><img src="images/comments.png">81</div>
+                            <div><img src="images/share.png">38</div>
+                         </div>
+                         <div class="post_profile_icons">
+                             <img src="images/profile-pic.png" >
+                             <i class="fas fa-caret-down"></i>
+                         </div>
+                    </div>
+                </div>
+                <div class="post_container">
+                    <div class="post_row">
+                        <div class="user_profile">
+                            <img src="images/profile-pic.png" >
+                            <div>
+                                <p>John Nicholson</p>
+                                <span>august 29 2021, 1201Am</span>
+                            </div>
+                        </div>  
+                        <a href="#"><i class="fas fa-ellipsis-v"></i></a>
+                    </div>   
+                    <p class="post_text">Like, share and comment this video to <span>friends </span> at my instergrame page. <a href="#">#Mbio Peter #Instegrame </a></p>     
+                    <img src="images/feed-image-3.png" class="post_img">
+                    <div class="post_row">
+                         <div class="activities_icons">
+                            <div><img src="images/like-blue.png">91</div>
+                            <div><img src="images/comments.png">21</div>
+                            <div><img src="images/share.png">18</div>
+                         </div>
+                         <div class="post_profile_icons">
+                             <img src="images/profile-pic.png" >
+                             <i class="fas fa-caret-down"></i>
+                         </div>
+                    </div>
+                </div>
+                <div class="post_container">
+                    <div class="post_row">
+                        <div class="user_profile">
+                            <img src="images/profile-pic.png" >
+                            <div>
+                                <p>John Nicholson</p>
+                                <span>June 24 2021, 1340pm</span>
+                            </div>
+                        </div>  
+                        <a href="#"><i class="fas fa-ellipsis-v"></i></a>
+                    </div>   
+                    <p class="post_text">Like, share and comment this video to <span>friends </span> at my twitter page. <a href="#">#Mbio Peter #Twitter </a></p>     
+                    <img src="images/feed-image-3.png" class="post_img">
+                    <div class="post_row">
+                         <div class="activities_icons">
+                            <div><img src="images/like-blue.png">231</div>
+                            <div><img src="images/comments.png">61</div>
+                            <div><img src="images/share.png">35</div>
+                         </div>
+                         <div class="post_profile_icons">
+                             <img src="images/profile-pic.png" >
+                             <i class="fas fa-caret-down"></i>
+                         </div>
+                    </div>
+                </div>
+                <div class="post_container">
+                    <div class="post_row">
+                        <div class="user_profile">
+                            <img src="images/profile-pic.png" >
+                            <div>
+                                <p>John Nicholson</p>
+                                <span>may 24 2022, 1140pm</span>
+                            </div>
+                        </div>  
+                        <a href="#"><i class="fas fa-ellipsis-v"></i></a>
+                    </div>   
+                    <p class="post_text">Like, share and comment this video to <span>friends </span> at my Ticktock page. <a href="#">#Mbio Peter #Ticktock </a></p>    
+                    <img src="images/feed-image-4.png" class="post_img">
+                    <div class="post_row">
+                         <div class="activities_icons">
+                            <div><img src="images/like.png">221</div>
+                            <div><img src="images/comments.png">81</div>
+                            <div><img src="images/share.png">38</div>
+                         </div>
+                         <div class="post_profile_icons">
+                             <img src="images/profile-pic.png" >
+                             <i class="fas fa-caret-down"></i>
+                         </div>
+                    </div>
+                </div>
+                <div class="post_container">
+                    <div class="post_row">
+                        <div class="user_profile">
+                            <img src="images/profile-pic.png" >
+                            <div>
+                                <p>John Nicholson</p>
+                                <span>January 28 2021, 1340pm</span>
+                            </div>
+                        </div>  
+                        <a href="#"><i class="fas fa-ellipsis-v"></i></a>
+                    </div>   
+                    <p class="post_text">Like, share and comment this video to <span>friends </span> at my Readme page. <a href="#">#Mbio Peter #Readme </a></p>    
+                    <img src="images/feed-image-5.png" class="post_img">
+                    <div class="post_row">
+                         <div class="activities_icons">
+                            <div><img src="images/like.png">721</div>
+                            <div><img src="images/comments.png">112</div>
+                            <div><img src="images/share.png">56</div>
+                         </div>
+                         <div class="post_profile_icons">
+                             <img src="images/profile-pic.png" >
+                             <i class="fas fa-caret-down"></i>
+                         </div>
+                    </div>
+                </div>
+                 
+            </div>
+        </div>
+    </div>
+
+    <div class="footer">
+        <p>Copywrite 2023 &copy Mbio peter </p>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>  
