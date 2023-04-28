@@ -648,6 +648,11 @@ nav .user_profile a{
     .left_sidebar{
         display: none;
     }
+    .nav_left, .nav_right {
+        display: flex;
+        align-items: center;
+        flex-basis:50%;
+    }
     nav{
         flex-wrap: nowrap;
     }
