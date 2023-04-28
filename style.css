@@ -9,11 +9,13 @@
     --body-color:#efefef  ;
     --nav-color:#1876f2;
     --bg-color:#fff;
+    --color:#626262;
 }
 .dark_theme{
     --body-color:#0a0a0a  ;
     --nav-color:#000;
     --bg-color:#000 ; 
+    --color:#ccc;
 }
 body{
     background:var(--body-color);
@@ -298,6 +300,7 @@ nav{
     border-bottom: 1px solid #ccc;
     background: transparent;
     resize: none;
+    color:var(--color);
 }
 .write_post_container .post_input_container .add_post_links{
     display: flex;
